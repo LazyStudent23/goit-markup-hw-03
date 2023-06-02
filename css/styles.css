@@ -1,0 +1,251 @@
+
+/* GLOBAL */
+
+:root {
+    --primary-font: "Roboto";
+    --secondary-font: 'Raleway';
+    --secondary-color: #2E2F42;
+    --primary-color: #434455;
+    --logo-color: #4D5AE5;
+    --logo-studio-color: #2E2F42;
+    --logo-footer-color: #F4F4FD;
+    --footer-text-color: #F4F4FD;
+    --hover-focus-color: #404BBF;
+    --hover-text-color: #FFFFFF;
+    --hero-text-color: #FFFFFF;
+    --logo-text-size: 18px;
+    --secondary-text-size: 20px;
+    --title-text-size: 36px;
+    --hero-title-text: 56px;
+    --member-card-color: #FFFFFF;
+    --portfolio-card-color: #FFFFFF;
+    --page-background-color: #FFFFFF;
+}
+
+body {
+    font-family: var(--primary-font), sans-serif;
+    font-size: var(--main-text-size);
+    color: var(--primary-color);
+    background-color: var(--page-background-color);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+    color: var(--hover-focus-color);
+}
+
+.list {
+    list-style-type: none;
+}
+
+.link a:hover,
+.link a:focus {
+    color: var(--hover-focus-color);
+}
+
+
+
+/* HEADER */
+
+.logo {
+    font-family: var(--secondary-font), sans-serif;
+    font-size: var(--logo-text-size);
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--logo-color);
+}
+
+.logo-studio {
+    color: var(--logo-studio-color);
+}
+
+.logo-studio-footer {
+    color: var(--logo-footer-color);
+}
+
+.navigation-link {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-color);
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+    color: var(--hover-focus-color);
+}
+
+.navigation > li {
+    list-style-type: none;
+}
+
+.navigation-address {
+    font-style: normal;
+
+}
+
+.address-menu > li {
+    list-style-type: none;
+}
+
+.address-menu-link {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-color);
+}
+
+/* MAIN */
+
+.hero {
+    text-align: center;
+    background-color: var(--secondary-color);
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: var(--hero-title-text);
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: var(--hero-text-color);
+}
+
+.hero-button {
+    font-family: var(--primary-font), sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--hero-text-color);
+    background-color: var(--logo-color);
+    cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: var(--hover-focus-color);
+}
+
+.benefits-title {
+    color: var(--secondary-color);
+}
+
+.benefits-subtitle {
+    font-weight: 500;
+    font-size: var(--secondary-text-size);
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--secondary-color);
+}
+
+.benefits-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.doing-title {
+    font-weight: 700;
+    font-size: var(--title-text-size);
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--secondary-color);
+}
+
+.team {
+    background-color: var(--footer-text-color);
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: var(--title-text-size);
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--secondary-color);
+}
+
+.member-card {
+    background: var(--member-card-color);
+}
+
+.team-member {
+    font-weight: 500;
+    font-size: var(--secondary-text-size);
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--secondary-color);
+}
+
+.member-position {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.button-navigation {
+    font-family: var(--primary-font),sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--logo-color);
+    background-color: var(--footer-text-color);
+    cursor: pointer;
+}
+
+.button-navigation:hover,
+.button-navigation:focus {
+    background-color: var(--hover-focus-color);
+    color: var(--hover-text-color);
+}
+
+.item-card {
+    background: var(--portfolio-card-color);
+        border: 1px solid #E7E9FC;
+}
+
+.portfolio-item-title {
+    font-size: var(--secondary-text-size);
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--secondary-color);
+}
+
+.portfolio-item-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-color);
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: var(--secondary-color);
+}
+
+.logo-footer {
+    font-family: var(--secondary-font), sans-serif;
+    font-weight: 800;
+        font-size: var(--logo-text-size);
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        text-decoration: none;
+    color: var(--logo-color);
+}
+
+.footer-text {
+    line-height: 1.5;
+    color: var(--footer-text-color);
+    letter-spacing: 0.02em;
+}
