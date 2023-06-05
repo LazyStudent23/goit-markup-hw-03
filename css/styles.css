@@ -282,10 +282,12 @@ img {
 }
 
 .team {
+    padding: 120px 0;
     background-color: var(--footer-text-color);
 }
 
 .team-title {
+    margin-bottom: 72px;
     font-weight: 700;
     font-size: var(--title-text-size);
     line-height: 1.11;
@@ -293,12 +295,10 @@ img {
     text-align: center;
     text-transform: capitalize;
     color: var(--secondary-color);
-    padding-top: 120px;
 }
 
 .team-list {
     padding-top: 72px;
-    padding-bottom: 120px;
     display: flex;
     gap: 24px;
 }
@@ -306,6 +306,11 @@ img {
 .member-card {
     background: var(--member-card-color);
     width: calc((100% - 24px * 3) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.member-container {
+    padding: 32px 16px;
 }
 
 .team-member {
@@ -315,7 +320,6 @@ img {
     letter-spacing: 0.02em;
     color: var(--secondary-color);
     text-align: center;
-    padding-top: 32px;
 }
 
 .member-position {
