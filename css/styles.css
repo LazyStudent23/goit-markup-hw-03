@@ -71,7 +71,7 @@ img {
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 156px;
+    margin: 0 auto;
     outline: 2px solid red;
 }
 
@@ -215,9 +215,12 @@ img {
     background-color: var(--hover-focus-color);
 }
 
+.benefits-container {
+    padding: 120px 0;
+}
+
 .benefits-list {
     display: flex;
-    padding: 120px 0;
     gap: 24px;
 }
 
