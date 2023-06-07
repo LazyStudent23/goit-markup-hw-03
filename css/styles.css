@@ -155,8 +155,6 @@ img {
 .address-menu {
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
     margin-left: auto;
 }
 
@@ -168,6 +166,8 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-color);
+    padding-top: 24px;
+        padding-bottom: 24px;
 }
 
 /* MAIN */
@@ -181,7 +181,6 @@ img {
 
 .hero-container {
     width: 1440px;
-        height: 600px;
 }
 
 .hero-title {
@@ -298,7 +297,6 @@ img {
 }
 
 .team-list {
-    padding-top: 72px;
     display: flex;
     gap: 24px;
 }
